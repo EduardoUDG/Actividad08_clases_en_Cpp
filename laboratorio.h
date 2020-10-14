@@ -1,7 +1,7 @@
 #ifndef LABORATORIO_H
 #define LABORATORIO_H
 
-#include "Computadora.h"
+#include "computadora.h"
 
 class Laboratorio
 {
@@ -11,6 +11,13 @@ public:
     Laboratorio();
     void agregarPersonaje(const Computadora &p);
     void mostrar();
+
+    friend Laboratorio& operator<<(Laboratorio &v, const Computadora &p)
+    {
+        v.agregarPersonaje(p);
+
+        return v;
+    }
 };
 
 
