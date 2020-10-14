@@ -20,10 +20,16 @@ int main(){
     comp02.setRam(16);
 
 
-    Laboratorio vj;
-    vj.agregarPersonaje(comp01);
-    vj.agregarPersonaje(comp02);
+    Laboratorio lb;
 
-    vj.mostrar();
+    lb.agregarPersonaje(comp01);
+    lb.agregarPersonaje(comp02);
+
+    Computadora comp03;
+    cin >> comp03;
+    cout << endl;
+    lb << comp03;
+
+    lb.mostrar();
     return 0;
 } 
