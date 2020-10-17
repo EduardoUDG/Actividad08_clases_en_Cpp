@@ -1,0 +1,4 @@
+Sistema Operativo   Nombre Usuario      Almacenamiento      RAM            
+Windows             Eduardo             500GB               8              
+MacOS               Luis                1TB                 16             
+windows             lalito              1TB                 8              
